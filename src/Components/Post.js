@@ -1,5 +1,6 @@
 import React from 'react';
 import '../stying/post.css';
+import Avatar from '@mui/material/Avatar';
 
 function Post() {
   return <div>
@@ -9,7 +10,7 @@ function Post() {
       src="https://avatars.githubusercontent.com/u/40416505?v=4"
       alt="avatar" 
       />
-      <h4>UserName: Caption</h4>
+      <h4 className="post_text"><strong>UserName</strong>: Caption</h4>
   </div>;
 }
 
